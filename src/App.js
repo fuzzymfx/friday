@@ -3,6 +3,7 @@ import Dashboard from './components/Dashboard';
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BlogIntro from './components/BlogIntro';
+import Intro from './components/Intro';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
 import './assets/css/style.css';
@@ -14,7 +15,8 @@ function App() {
     <>
       <Header />
       <Dashboard />
-      {/* <BlogIntro /> */}
+      <Intro />
+      <BlogIntro />
       {/* <Blog />
       <Footer /> */}
 

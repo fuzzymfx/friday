@@ -23,8 +23,8 @@ export default function Header() {
       <Navbar className='navbar navbar-expand-lg navbar-dark py-4 px-4 cdin' expand="lg">
         <Container >
           <Nav >
-            <Avatar className="mx-2 d-none d-md-block" alt="Anubhab Patnaik" src={a1} />
-            <Navbar.Brand href="#">ANUBHAV PATNAIK</Navbar.Brand>        </Nav>
+            {/* <Avatar className="mx-2 d-none d-md-block" alt="" src={a1} /> */}
+            <Navbar.Brand href="#">SQB</Navbar.Brand></Nav>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -32,11 +32,12 @@ export default function Header() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#link">Link</Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link href="https://www.linkedin.com/in/anubhabpatnaik0530/">Linkedin</Nav.Link>
               <Nav.Link href="https://www.github.com/codebotx">Github</Nav.Link>
-
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -48,8 +49,8 @@ export default function Header() {
       <Navbar className='navbar navbar-expand-lg py-4 px-4 cdin' expand="lg">
         <Container >
           <Nav >
-            <Avatar className="mx-2 d-none d-md-block" alt="Anubhab Patnaik" src={a1} />
-            <Navbar.Brand href="#">ANUBHAV PATNAIK</Navbar.Brand>
+            {/* <Avatar className="mx-2 d-none d-md-block" alt="" src={a1} /> */}
+            <Navbar.Brand href="#">SQB</Navbar.Brand>
           </Nav>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -58,10 +59,18 @@ export default function Header() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
+
+              <Nav.Link href="/about">About Us</Nav.Link>
+              <Nav.Link href="/tech">Tech</Nav.Link>
+              <Nav.Link href="/team">Team</Nav.Link>
+              <Nav.Link href="/team">Insights</Nav.Link>
+              <Nav.Link href="/team">Career</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="https://www.linkedin.com/in/anubhabpatnaik0530/">Linkedin</Nav.Link>
-              <Nav.Link href="https://www.github.com/codebotx">Github</Nav.Link>
+              {/* <Nav.Link href="https://www.github.com/">Github</Nav.Link> */}
+              <Nav.Link href="https://www.github.com/">Medium</Nav.Link>
+              <Nav.Link href="https://www.linkedin.com/in/">Linkedin</Nav.Link>
+              <Nav.Link href="/contact">Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

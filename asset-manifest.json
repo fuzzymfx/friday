@@ -1,20 +1,17 @@
 {
   "files": {
     "main.css": "/sqweb/static/css/main.e4cb6e35.css",
-    "main.js": "/sqweb/static/js/main.7516b9a2.js",
+    "main.js": "/sqweb/static/js/main.79dc5145.js",
     "static/media/DAPP.svg": "/sqweb/static/media/DAPP.30184926b7cd6fbe5405cc39eec22ca2.svg",
     "static/media/NFT.svg": "/sqweb/static/media/NFT.08812b17342aa5695908e44a5c8d0e21.svg",
     "static/media/think.svg": "/sqweb/static/media/think.6724633cd8303ad4691830948a4b54e0.svg",
     "static/media/a1.jpeg": "/sqweb/static/media/a1.0471aafae6465ba891b6.jpeg",
-    "static/media/bitcoin-transfer.svg": "/sqweb/static/media/bitcoin-transfer.553090e474fbe631ae61ad02f3183005.svg",
     "static/media/wallet.svg": "/sqweb/static/media/wallet.7f19fa3e1bede0d94dd1bd247bd631eb.svg",
     "static/media/office.svg": "/sqweb/static/media/office.8f117eb207e57ed8f89d67d595aceb45.svg",
-    "static/media/react.svg": "/sqweb/static/media/react.0960bd7ea577f3d0f49d260a7e410905.svg",
     "static/media/moonlight.svg": "/sqweb/static/media/moonlight.55a7737d052c628f33b29081e6d23365.svg",
     "static/media/hyperledger1.svg": "/sqweb/static/media/hyperledger1.d84d5a46c79fb00ef184d0ee0bc25bce.svg",
     "static/media/hyperledger2.svg": "/sqweb/static/media/hyperledger2.eaf9a8e269f43a6d211355aa00eb6e1a.svg",
     "static/media/Piggy.svg": "/sqweb/static/media/Piggy.497b3354edbae9f649b86e5389fc1e58.svg",
-    "static/media/read.svg": "/sqweb/static/media/read.a7e5aee6776a70d96efcda94c11cb612.svg",
     "static/media/polkadot1.svg": "/sqweb/static/media/polkadot1.095913483a5ddb1599645ad2abe90c0b.svg",
     "static/media/polkadot2.svg": "/sqweb/static/media/polkadot2.ee985ac96b885948bde6f7eefcadfd25.svg",
     "static/media/circuit.svg": "/sqweb/static/media/circuit.b3c0d2f8e454b9176073ac5feb97a33a.svg",
@@ -45,10 +42,10 @@
     "static/media/dot.svg": "/sqweb/static/media/dot.c3b09b42e4cec13571fff1259871cd00.svg",
     "static/media/dots2.svg": "/sqweb/static/media/dots2.fa385fd897213808085c3a35608fc771.svg",
     "main.e4cb6e35.css.map": "/sqweb/static/css/main.e4cb6e35.css.map",
-    "main.7516b9a2.js.map": "/sqweb/static/js/main.7516b9a2.js.map"
+    "main.79dc5145.js.map": "/sqweb/static/js/main.79dc5145.js.map"
   },
   "entrypoints": [
     "static/css/main.e4cb6e35.css",
-    "static/js/main.7516b9a2.js"
+    "static/js/main.79dc5145.js"
   ]
 }

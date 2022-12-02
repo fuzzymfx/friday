@@ -1,38 +1,17 @@
 import React from 'react'
 import '../assets/css/blog.css';
-import '../assets/css/style.css';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import read from '../assets/img/read.svg';
-import react from '../assets/img/react.svg';
-import btc from '../assets/img/bitcoin-transfer.svg';
 import think from '../assets/img/think.svg';
-import { fontFamily } from '@mui/system';
+
 
 export default function Intro() {
 	return (
-		<div style={{ width: '100%' }}>
+		<>
 			<div className="container">
 				<div className="row">
-					<h1 className=""
-						style={{
-
-							fontSize: '64px',
-							fontWeight: '600',
-							// color: '#3f3d56',
-							marginTop: '2rem',
-							marginBottom: '2rem',
-							// textAlign: 'center',
-							width: '100%',
-							// fontFamily: 'Quicksand'
-						}}
-					>WELCOME TO SQUBIX DIGITAL</h1>
+					<h1 className='py-4'>
+						WELCOME TO SQUBIX DIGITAL</h1>
 					<div className="col-md-8">
-						<p className="m-5">
+						<p className="p-3">
 							A problem that has plagued the internet since its inception is:
 							<p className='text-secondary fs-5'>
 								how to store data in a way that is <b>
@@ -55,10 +34,9 @@ export default function Intro() {
 					</div>
 					<div className="col-md-4">
 						<img src={think} alt="bitcoin transfer" style={{ width: '100%', height: '100%' }} />
-
 					</div>
 				</div>
 			</div>
-		</div>
-	)
+
+		</>)
 }

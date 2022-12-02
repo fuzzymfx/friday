@@ -8,6 +8,7 @@ import Intro from './components/Intro';
 import BlockchainOfferings from './components/BlockchainOfferings';
 import Footer from './components/Footer';
 import './assets/css/style.css';
+import OurCoreValues from './components/OurCoreValues';
 
 
 
@@ -35,6 +36,14 @@ function App() {
       </div>
       <BlockchainOfferings />
       <Cards />
+      <div className="container">
+        <div className="row text-center justify-content-center my-1" >
+          <h1>
+            OUR <span className="text-secondary">CORE</span> <span className="text-primary">VALUES</span>
+          </h1>
+        </div>
+      </div>
+      <OurCoreValues />
       <Footer />
     </>
   )

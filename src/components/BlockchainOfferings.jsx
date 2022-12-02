@@ -189,12 +189,12 @@ function BlockchainOfferings() {
 			</div>
 			<div
 				className="card m-0 my-0 p-0"
-				style={{ borderRadius: "20px", backgroundColor: "#171932" }}
+				style={{ borderRadius: "20px", backgroundColor: "#212529" }}
 			>
 				<div
 					className="card-body p-0 mx-0 "
 					style={{
-						backgroundColor: "#171932",
+						backgroundColor: "#212529",
 						// borderBottomLeftRadius: "20px", borderBottomRightRadius: "20px"
 						borderRadius: "40px",
 					}}

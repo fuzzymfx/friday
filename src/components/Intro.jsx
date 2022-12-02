@@ -23,7 +23,7 @@ export default function Intro() {
 
 							fontSize: '64px',
 							fontWeight: '600',
-							color: '#3f3d56',
+							// color: '#3f3d56',
 							marginTop: '2rem',
 							marginBottom: '2rem',
 							// textAlign: 'center',
@@ -55,14 +55,7 @@ export default function Intro() {
 					</div>
 					<div className="col-md-4">
 						<img src={think} alt="bitcoin transfer" style={{ width: '100%', height: '100%' }} />
-						{/* <Card sx={{ maxWidth: 750 }}>
-							<CardMedia
-								component="img"
-								height="100%"
-								image={btc}
-								alt="bticoin transfer"
-							/>
-						</Card> */}
+
 					</div>
 				</div>
 			</div>

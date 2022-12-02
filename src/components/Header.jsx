@@ -20,12 +20,11 @@ export default function Header() {
 
   if (isDark) {
     return (<>
-      <Navbar className='navbar navbar-expand-lg py-4 px-4 cdin' expand="lg">
+      <Navbar className='navbar navbar-expand-lg navbar-dark py-4 px-4 cdin' expand="lg">
         <Container >
           <Nav >
             {/* <Avatar className="mx-2 d-none d-md-block" alt="" src={a1} /> */}
-            <Navbar.Brand href="#">SQB</Navbar.Brand>
-          </Nav>
+            <Navbar.Brand href="/">SQB</Navbar.Brand></Nav>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -33,7 +32,6 @@ export default function Header() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-
               <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="/tech">Tech</Nav.Link>
               <Nav.Link href="/team">Team</Nav.Link>

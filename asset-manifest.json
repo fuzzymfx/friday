@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sqweb/static/css/main.e4cb6e35.css",
-    "main.js": "/sqweb/static/js/main.62ab6b00.js",
+    "main.js": "/sqweb/static/js/main.7516b9a2.js",
     "static/media/DAPP.svg": "/sqweb/static/media/DAPP.30184926b7cd6fbe5405cc39eec22ca2.svg",
     "static/media/NFT.svg": "/sqweb/static/media/NFT.08812b17342aa5695908e44a5c8d0e21.svg",
     "static/media/think.svg": "/sqweb/static/media/think.6724633cd8303ad4691830948a4b54e0.svg",
@@ -45,10 +45,10 @@
     "static/media/dot.svg": "/sqweb/static/media/dot.c3b09b42e4cec13571fff1259871cd00.svg",
     "static/media/dots2.svg": "/sqweb/static/media/dots2.fa385fd897213808085c3a35608fc771.svg",
     "main.e4cb6e35.css.map": "/sqweb/static/css/main.e4cb6e35.css.map",
-    "main.62ab6b00.js.map": "/sqweb/static/js/main.62ab6b00.js.map"
+    "main.7516b9a2.js.map": "/sqweb/static/js/main.7516b9a2.js.map"
   },
   "entrypoints": [
     "static/css/main.e4cb6e35.css",
-    "static/js/main.62ab6b00.js"
+    "static/js/main.7516b9a2.js"
   ]
 }

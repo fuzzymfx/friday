@@ -9,10 +9,14 @@ import BlockchainOfferings from './components/BlockchainOfferings';
 import Footer from './components/Footer';
 import './assets/css/style.css';
 import OurCoreValues from './components/OurCoreValues';
-
+import Aos from 'aos';
+import React from 'react';
 
 
 function App() {
+  React.useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
       <Header />

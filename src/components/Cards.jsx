@@ -7,7 +7,6 @@ import corda from "../assets/img/corda2.svg";
 import polkadot from "../assets/img/polkadot2.svg";
 import hyperledger from "../assets/img/hyperledger2.svg";
 import ethereum from "../assets/img/ethereum2.svg";
-import Aos from "aos";
 var dark;
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 	dark = true;
@@ -19,9 +18,6 @@ export default function Cards() {
 	window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
 		event.matches ? setIsDark(true) : setIsDark(false);
 	});
-	useEffect(() => {
-		Aos.init();
-	}, []);
 
 	const imgsmall = { transform: "scale(0.5)" };
 	return (
@@ -31,7 +27,7 @@ export default function Cards() {
 				<div className="row mb-5">
 					<div
 						data-aos="fade-up"
-						data-aos-delay="200"
+						data-aos-duration="500"
 						className="col-12 col-sm-6 col-lg-3 d-flex text-center align-items-center "
 					>
 						<div>
@@ -49,7 +45,7 @@ export default function Cards() {
 					</div>
 					<div
 						data-aos="fade-up"
-						data-aos-delay="200"
+						data-aos-duration="500"
 						className="col-12 col-sm-6 col-lg-3 d-flex text-center align-items-center "
 					>
 						<div>
@@ -69,7 +65,7 @@ export default function Cards() {
 					</div>
 					<div
 						data-aos="fade-up"
-						data-aos-delay="200"
+						data-aos-duration="500"
 						className="col-12 col-sm-6 col-lg-3 d-flex text-center align-items-center"
 					>
 						<div>
@@ -88,7 +84,7 @@ export default function Cards() {
 					</div>
 					<div
 						data-aos="fade-up"
-						data-aos-delay="200"
+						data-aos-duration="500"
 						className="col-12 col-sm-6 col-lg-3 d-flex text-center align-items-center "
 					>
 						<div>

@@ -10,13 +10,24 @@ import Typography from '@mui/material/Typography';
 import dapp from '../assets/img/DAPP.svg';
 import NFT from '../assets/img/NFT.svg';
 import wallet from '../assets/img/wallet.svg';
+import Aos from 'aos';
 
 export default function CardsIntro() {
+	React.useEffect(() => {
+		Aos.init({
+			duration: 10000,
+		});
+	}, []);
 	return (
 		<div style={{ width: '100%' }}>
-			<div>
+			<div
+
+			>
 				<div className='container' >
-					<div className="row justify-content-center mx-1" >
+					<div
+						data-aos="fade-left"
+						data-aos-duration="1000"
+						className="row justify-content-center mx-1" >
 						<div className="col-md-4 py-5 " id='techhead'>
 							<Card sx={{ maxWidth: 345 }}  >
 								<CardMedia
@@ -57,7 +68,10 @@ export default function CardsIntro() {
 							</p>
 						</div>
 					</div>
-					<div className="row justify-content-center mx-1" >
+					<div
+						data-aos="fade-right"
+						data-aos-duration="1000"
+						className="row justify-content-center mx-1" >
 						<div className="col-md-8 py-5" >
 							<h2 className='mt-5'>Blockchain Development</h2>
 							<p>
@@ -99,7 +113,10 @@ export default function CardsIntro() {
 						</div>
 
 					</div>
-					<div className="row justify-content-center mx-1" >
+					<div
+						data-aos="fade-left"
+						data-aos-duration="1000"
+						className="row justify-content-center mx-1" >
 						<div className="col-md-4 py-5 " id='techhead'>
 							<Card sx={{ maxWidth: 345 }}  >
 								<CardMedia

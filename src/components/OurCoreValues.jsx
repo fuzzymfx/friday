@@ -8,6 +8,7 @@ import research2 from "../assets/img/research2.svg";
 import technologyd from "../assets/img/technologyd.svg";
 import qualityd from "../assets/img/qualityd.svg";
 import researchd from "../assets/img/researchd.svg";
+import Aos from "aos";
 var dark;
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 	dark = true;
@@ -45,11 +46,17 @@ export default function OurCoreValues() {
 		}
 		// eslint-disable-next-line
 	}, [over1]);
+	// React.useEffect(() => {
+	// 	Aos.init();
+	// }, []);
 
 	return (
 		<div className="container">
 			<div className="row">
-				<div className="col-md-12 col-lg-4">
+				<div
+					data-aos="fade-up"
+					data-aos-duration="1000"
+					className="col-md-12 col-lg-4">
 					<div
 						className="card rounded-4 cardgroup text-center mt-5 pb-4"
 						style={{
@@ -76,7 +83,10 @@ export default function OurCoreValues() {
 						</div>
 					</div>
 				</div>
-				<div className="col-md-12 col-lg-4 ">
+				<div
+					data-aos="fade-up"
+					data-aos-duration="1000"
+					className="col-md-12 col-lg-4 ">
 					<div
 						className="card  rounded-4 cardgroup text-center mt-5 pb-4"
 						style={{
@@ -102,7 +112,10 @@ export default function OurCoreValues() {
 						</div>
 					</div>
 				</div>
-				<div className="col-md-12 col-lg-4 ">
+				<div
+					data-aos="fade-up"
+					data-aos-duration="1000"
+					className="col-md-12 col-lg-4 ">
 					<div
 						className="card rounded-4 cardgroup text-center mt-5 pb-4"
 						style={{

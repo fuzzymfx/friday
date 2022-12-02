@@ -1,6 +1,4 @@
-import React from "react";
-// import { CSSTransitionGroup } from "react-transition-group";
-// import "../Css/BlockchainOfferings.css";
+import React, { useEffect } from "react";
 import nft from "../assets/img/blockchainofferings/nft.svg";
 import nft2 from "../assets/img/blockchainofferings/nft2.svg";
 import circuit from "../assets/img/blockchainofferings/circuit.svg";
@@ -15,8 +13,14 @@ import transfer from "../assets/img/blockchainofferings/transfer.svg";
 import transfer2 from "../assets/img/blockchainofferings/transfer2.svg";
 import dot from "../assets/img/blockchainofferings/dot.svg";
 import dots2 from "../assets/img/blockchainofferings/dots2.svg";
+import Aos from "aos";
 
 function BlockchainOfferings() {
+	useEffect(() => {
+		Aos.init({
+			duration: 10000,
+		});
+	}, []);
 	const [over1, setOver1] = React.useState("nft");
 	const [main, setMain] = React.useState(null);
 	const [innercontent, setInnercontent] = React.useState(
@@ -106,6 +110,8 @@ function BlockchainOfferings() {
 	return (<>
 		<div className="container">
 			<div
+				data-aos="fade-up"
+				data-aos-duration="500"
 				className="card mt-5  my-0 p-0"
 				style={{
 					borderRadius: "20px",
@@ -188,6 +194,9 @@ function BlockchainOfferings() {
 				</div>
 			</div>
 			<div
+				data-aos="flip-up"
+				data-aos-duration="500"
+
 				className="card m-0 my-0 p-0"
 				style={{ borderRadius: "20px", backgroundColor: "#212529" }}
 			>

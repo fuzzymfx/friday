@@ -18,84 +18,38 @@ export default function Intro() {
 				<div className="row">
 					<div className="col-md-6">
 						<div className="blog-heading p-5">
-							<h2 className='text-secondary'>DECENTRALIZATION
+							<h2 className='text-dark'>DECENTRALIZED
 								<br />
 								<br />
-								TRANSPARENCY
+								TRANSPARENT
 								<br />
 								<br />
-								IMMUTABILITY</h2>
+								IMMUTABLE
+							</h2>
 							<br />
-							<p className="m-5">Blockchain is a decentralized, distributed and public digital ledger that is used to record transactions across many computers so that the record cannot be altered retroactively, without the alteration of all subsequent blocks and the collusion of the network.</p>
-
 						</div>
 					</div>
 				</div>
-			</div>
-			<div className="container">
 				<div className="row">
-					<div className="col-md-4">
-						<Card sx={{ maxWidth: 345 }}>
-							<CardMedia
-								component="img"
-								height="140"
-								image={read}
-								alt="green iguana"
-							/>
-							<CardContent>
-								<Typography gutterBottom variant="h5" component="div">
-									READ
-								</Typography>
-								<Typography variant="body2" color="text.secondary">
-									We are a team of blockchain enthusiasts who are passionate about the technology and its potential to change the world.
-								</Typography>
-							</CardContent>
-							<CardActions>
-								<Button size="small">Learn More</Button>
-							</CardActions>
-						</Card>
-					</div>
-					<div className="col-md-4">
-						<Card sx={{ maxWidth: 345 }}>
-							<CardMedia
-								component="img"
-								height="140"
-								image={react}
-								alt="green iguana"
-							/>
-							<CardContent>
-								<Typography gutterBottom variant="h5" component="div">
-									REACT
-								</Typography>
-								<Typography variant="body2" color="text.secondary">
-									We are a team of blockchain enthusiasts who are passionate about the technology and its potential to change the world.
-								</Typography>
-							</CardContent>
-							<CardActions>
-								<Button size="small">Learn More</Button>
-							</CardActions>
-						</Card>
-					</div>
-					<div className="col-md-4">
-						<Card sx={{ maxWidth: 345 }}>
-							<CardMedia
-								component="img"
-								height="140"
-								image={movie}
-								alt="green iguana"
-							/>
-							<CardContent>
-								<Typography gutterBottom variant="h5" component="div">
-									MOVIE
-								</Typography>
-								<Typography variant="body2" color="text.secondary">
-									We are a team of blockchain enthusiasts who are passionate about the technology and its potential to change the world.
-								</Typography>
-							</CardContent>
-							<CardActions>
-								<Button size="small">Learn More</Button>
-							</CardActions>
-						</Card>
+					<div className="col-md-8">
+						<p className="m-5">
+							A problem that has plagued the internet since its inception is:
+							<h4>
+								"how to store data in a way that is secure, tamper-proof and accessible to all."
+							</h4>
+							We always ponder as to how do we ensure that our transactions are being processed in a secure manner. What happens when you upload your data on social media? Do the biggest tech giants track you? What about fraud, forgery, questionable lending processes and other issues that affect the centralized banking system?
+							Privacy, security and transparency are the biggest concerns.
+							<br />
+							<br />
+							Blockchain is an attempt to address these concerns.
+							Blockchain is an immutable, shared, decentralized, and public digital ledger that is used to record transactions across many computers so that the record cannot be altered retroactively, without the alteration of all subsequent blocks and the collusion in a business network. It is a  mechanism for storing data in a way that makes system-changes, hacking, and cheating difficult to
+							near-impossible.
+							<br />
+							<br />
+							<div className="fs-5 fst-italic fw-lighter">
+								We are a team of passionate engineers who are building the future of web and finance using blockchain technology.
+							</div>
+						</p>
 					</div>
 				</div>
 			</div>

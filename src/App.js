@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CardsIntro from './components/BlogIntro';
 import Cards from './components/Cards';
 import Intro from './components/Intro';
-
+import BlockchainOfferings from './components/BlockchainOfferings';
 import Footer from './components/Footer';
 import './assets/css/style.css';
 
@@ -33,10 +33,9 @@ function App() {
           </h1>
         </div>
       </div>
+      <BlockchainOfferings />
       <Cards />
       <Footer />
-
-
     </>
   )
 }

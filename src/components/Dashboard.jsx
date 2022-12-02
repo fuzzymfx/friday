@@ -28,14 +28,14 @@ export default function Dashboard() {
 				<h1>PRODUCTS<span></span><span className="text-secondary"> & SERVICES</span></h1>
 			</>
 			)
-			setDashboardcontent(" We provide industry standard solutions and services with expertise in blockchain development, cloud services, testing automation, web - development, mobile development, and other software solutions.Our objective is to bring creative and shrewd solutions to solve business problems.")
+			setDashboardcontent(" We provide industry standard solutions and services with expertise in blockchain development, cloud services, testing automation, web - development, mobile development, and other software solutions. Our objective is to bring creative and shrewd solutions to solve business problems.")
 			setDynamiclink("https://squbix.com/")
 		} else if (isDisplayed === "second") {
 			setHeading(<>
 				<h1>WEB<span> </span><span className="text-secondary">3</span></h1>
 			</>
 			)
-			setDashboardcontent(" The potential of Blockchain is collosal, which makes it the pinnacle of current world innovation. We provide solutions in the domains of wallet development, Central Bank of Digital Currency, blockchain development and other industry services.")
+			setDashboardcontent(" The potential of Blockchain is collosal, which makes it the pinnacle of current world innovation. We work with wallet development, Central Bank of Digital Currency, blockchain development and other web3 industry services.")
 			setDynamiclink("https://squbix.com/dapps")
 		} else if (isDisplayed === "third") {
 			setHeading(<>

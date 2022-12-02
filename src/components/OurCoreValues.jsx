@@ -8,7 +8,6 @@ import research2 from "../assets/img/research2.svg";
 import technologyd from "../assets/img/technologyd.svg";
 import qualityd from "../assets/img/qualityd.svg";
 import researchd from "../assets/img/researchd.svg";
-import Aos from "aos";
 var dark;
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 	dark = true;
@@ -46,9 +45,6 @@ export default function OurCoreValues() {
 		}
 		// eslint-disable-next-line
 	}, [over1]);
-	// React.useEffect(() => {
-	// 	Aos.init();
-	// }, []);
 
 	return (
 		<div className="container">

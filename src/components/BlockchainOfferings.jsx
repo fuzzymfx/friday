@@ -113,7 +113,7 @@ function BlockchainOfferings() {
 					height: "100%",
 				}}
 			>
-				<div className="card-body bg-light text-dark p-0 mh-100 d-inline-block" style={{
+				<div className="card-body text-dark p-0 mh-100 d-inline-block" style={{
 					borderRadius: "20px",
 					height: "100%",
 				}}>

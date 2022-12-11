@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/qweb/static/css/main.e68006eb.css",
-    "main.js": "/qweb/static/js/main.ebcd89fd.js",
-    "static/media/moon.png": "/qweb/static/media/moon.e82cfe28864e3d696884.png",
-    "static/media/think.svg": "/qweb/static/media/think.6724633cd8303ad4691830948a4b54e0.svg",
-    "static/media/moonlight.svg": "/qweb/static/media/moonlight.55a7737d052c628f33b29081e6d23365.svg",
-    "index.html": "/qweb/index.html",
-    "main.e68006eb.css.map": "/qweb/static/css/main.e68006eb.css.map",
-    "main.ebcd89fd.js.map": "/qweb/static/js/main.ebcd89fd.js.map"
+    "main.css": "/friday/static/css/main.e68006eb.css",
+    "main.js": "/friday/static/js/main.a553ff87.js",
+    "static/media/moon.png": "/friday/static/media/moon.e82cfe28864e3d696884.png",
+    "static/media/think.svg": "/friday/static/media/think.6724633cd8303ad4691830948a4b54e0.svg",
+    "static/media/moonlight.svg": "/friday/static/media/moonlight.55a7737d052c628f33b29081e6d23365.svg",
+    "index.html": "/friday/index.html",
+    "main.e68006eb.css.map": "/friday/static/css/main.e68006eb.css.map",
+    "main.a553ff87.js.map": "/friday/static/js/main.a553ff87.js.map"
   },
   "entrypoints": [
     "static/css/main.e68006eb.css",
-    "static/js/main.ebcd89fd.js"
+    "static/js/main.a553ff87.js"
   ]
 }

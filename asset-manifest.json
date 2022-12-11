@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/qweb/static/css/main.e4cb6e35.css",
-    "main.js": "/qweb/static/js/main.bc3565c7.js",
+    "main.css": "/qweb/static/css/main.e68006eb.css",
+    "main.js": "/qweb/static/js/main.fea2cd9c.js",
     "static/media/think.svg": "/qweb/static/media/think.6724633cd8303ad4691830948a4b54e0.svg",
     "static/media/a1.jpeg": "/qweb/static/media/a1.0471aafae6465ba891b6.jpeg",
     "static/media/office.svg": "/qweb/static/media/office.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -10,11 +10,11 @@
     "static/media/logo1.svg": "/qweb/static/media/logo1.c42058092a4d0aba64dddf0be7a1fdc2.svg",
     "static/media/logo2.svg": "/qweb/static/media/logo2.f24b038419c346cc50a199689070f941.svg",
     "index.html": "/qweb/index.html",
-    "main.e4cb6e35.css.map": "/qweb/static/css/main.e4cb6e35.css.map",
-    "main.bc3565c7.js.map": "/qweb/static/js/main.bc3565c7.js.map"
+    "main.e68006eb.css.map": "/qweb/static/css/main.e68006eb.css.map",
+    "main.fea2cd9c.js.map": "/qweb/static/js/main.fea2cd9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4cb6e35.css",
-    "static/js/main.bc3565c7.js"
+    "static/css/main.e68006eb.css",
+    "static/js/main.fea2cd9c.js"
   ]
 }

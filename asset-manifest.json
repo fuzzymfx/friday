@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/qweb/static/css/main.e4cb6e35.css",
-    "main.js": "/qweb/static/js/main.363795f4.js",
+    "main.js": "/qweb/static/js/main.bc3565c7.js",
     "static/media/think.svg": "/qweb/static/media/think.6724633cd8303ad4691830948a4b54e0.svg",
     "static/media/a1.jpeg": "/qweb/static/media/a1.0471aafae6465ba891b6.jpeg",
     "static/media/office.svg": "/qweb/static/media/office.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/moonlight.svg": "/qweb/static/media/moonlight.55a7737d052c628f33b29081e6d23365.svg",
     "static/media/Piggy.svg": "/qweb/static/media/Piggy.497b3354edbae9f649b86e5389fc1e58.svg",
+    "static/media/logo1.svg": "/qweb/static/media/logo1.c42058092a4d0aba64dddf0be7a1fdc2.svg",
+    "static/media/logo2.svg": "/qweb/static/media/logo2.f24b038419c346cc50a199689070f941.svg",
     "index.html": "/qweb/index.html",
     "main.e4cb6e35.css.map": "/qweb/static/css/main.e4cb6e35.css.map",
-    "main.363795f4.js.map": "/qweb/static/js/main.363795f4.js.map"
+    "main.bc3565c7.js.map": "/qweb/static/js/main.bc3565c7.js.map"
   },
   "entrypoints": [
     "static/css/main.e4cb6e35.css",
-    "static/js/main.363795f4.js"
+    "static/js/main.bc3565c7.js"
   ]
 }

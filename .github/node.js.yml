@@ -24,9 +24,9 @@ jobs:
       uses: Borales/actions-yarn@v4.2.0
       with:
         cmd: install # will run `yarn install` command
-    - run: git config --global user.name codebotx
+    - run: git config --global user.name fuzzymfx
     - run: git config --global user.email anubhabr50@gmail.com
-    - run: git remote set-url origin https://codebotx:${{ secrets.PAT }}@github.com/codebotx/friday.git
+    - run: git remote set-url origin https://fuzzymfx:${{ secrets.PAT }}@github.com/codebotx/friday.git
     - run: yarn
     - run: yarn run build --if-present
     - run: yarn run deploy
